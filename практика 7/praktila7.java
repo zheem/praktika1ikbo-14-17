@@ -1,4 +1,4 @@
-package practice7;
+
 import java.util.ArrayDeque;
 import java.lang.Math;
 public class Practice7 {
