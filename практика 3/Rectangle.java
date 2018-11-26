@@ -32,18 +32,14 @@ public class Rectangle extends Shape {
     public void setLength (double length) {
         this.length = length;
     }
-    @Override
     public double getArea() {
         
         return width*length;
     }
 
-    @Override
     public double getPerimetr() {
         return 2*(width + length);
     }
-
-    @Override
     public String toString() {
         return "Shape: rectangle, color: " + this.color + ", width: " + this.width + ", length: " + this.length;
     }
