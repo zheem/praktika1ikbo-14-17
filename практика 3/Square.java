@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package shapes;
 public class Square extends Rectangle {
    Square () {
@@ -30,15 +26,14 @@ public class Square extends Rectangle {
        width = side;
        length = width;
    }
-   @Override
+  
    public void setWidth (double side) {
        setSide(side);
    }
-   @Override
+   
    public void setLength (double side) {
        setSide (side);
    }
-   @Override
    public String toString() {
        return "Shape: square, color: " + this.color +", side: " + this.width; 
     }
