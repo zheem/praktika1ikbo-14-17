@@ -1,4 +1,4 @@
-package sortingstudent;
+
 public class Student {
     protected int score;
     private String name;
