@@ -1,4 +1,4 @@
-package recursion;
+
 import java.util.Scanner;
 public class Recursion {
     static int sum = 0;
